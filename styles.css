@@ -58,7 +58,6 @@ header {
   color: #fff;
 }
 
-/* Sign Up / Sign In Section */
 .signup-section {
   position: relative;
   height: 100vh;
@@ -90,14 +89,14 @@ header {
   z-index: -1;
 }
 
-/* Form Container */
 .form-container {
   position: relative;
-  background: #d9d8d8ed;
-  padding: 2rem;
+  background: rgba(217, 216, 216, 0.6); 
+  backdrop-filter: blur(6px);          
+  padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-  max-width: 400px;
+  max-width: 350px;  
   width: 100%;
   z-index: 1;
   text-align: center;
@@ -187,7 +186,7 @@ form button[type="submit"]:hover {
 }
 
 #app-download {
-  max-width: 500px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -230,5 +229,22 @@ form button[type="submit"]:hover {
   font-size: 24px !important;
   color: white !important;
   font-family: Flame !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #text-dark {
+    font-size: 1.5rem;
+  }
+
+  .form-container {
+    max-width: 280px;
+    padding: 1rem;
+  }
+
+  .signup-section {
+    height: auto;
+    padding: 2rem 0;
+  }
 }
 
