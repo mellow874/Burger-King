@@ -14,6 +14,17 @@ body {
   background-color: var(--bg-color);
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--bg-color);
+  padding: 10px 0;
+}
+
+
 .logo-img {
   max-width: 60px;   
   height: auto;
@@ -92,7 +103,6 @@ body {
   text-align: center;
 }
 
-/* Tabs */
 .tabs {
   display: flex;
   justify-content: center;
@@ -115,7 +125,6 @@ body {
   color: #fff;
 }
 
-/* Hide inactive forms */
 .form-content {
   display: none;
 }
@@ -124,7 +133,6 @@ body {
   display: block;
 }
 
-/* Form Fields */
 form input {
   width: 100%;
   padding: 0.75rem;
@@ -198,7 +206,7 @@ form button[type="submit"]:hover {
 }
 
 #footer {
-  background-color: rgb(54, 8, 8);
+  background-color: rgb(54, 8, 8) !important;
   padding: 2rem 1rem;
   font-family: Flame !important;
 }
@@ -210,3 +218,17 @@ form button[type="submit"]:hover {
 #footer-links {
   color: rgb(249, 245, 245) !important;
 }
+
+#footer-links a {
+  color: rgba(200, 196, 196, 0.886) !important;
+  text-decoration: none;
+  gap: 1px !important;
+  font-size: 15px !important;
+}
+
+#mini-title {
+  font-size: 24px !important;
+  color: white !important;
+  font-family: Flame !important;
+}
+
