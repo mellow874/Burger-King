@@ -3,51 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Burger King </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Flame&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!--Header Section-->
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Burger King Clone</title>
-
-  <!-- Bootstrap -->
-  <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-    crossorigin="anonymous">
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Flame&display=swap" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <!-- Header Section -->
   <div class="container"> 
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"> 
-      <div class="col-md-3 mb-2 mb-md-0"> 
-        <!-- Logo -->
-        <a href="/" class="logo-link">
-          <div class="logo-svg">
-            <!-- SVG Logo -->
-            <!-- (kept your full SVG code as-is) -->
-          </div>
-        </a>
-      </div> 
+      <a href="/" class="logo-link d-flex align-items-center me-auto">
+      <img src="images/Logo.png" alt="Burger King Logo" class="logo-img">
+    </a> 
 
       <!-- Navigation -->
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> 
-        <li><a href="https://www.burgerking.co.za/menu" class="nav-link px-2 link-secondary">Menu</a></li> 
+        <li><a href="https://www.burgerking.co.za/menu" class="nav-link px-2">Menu</a></li> 
         <li><a href="https://www.burgerking.co.za/store-locator" class="nav-link px-2">BK® Finder</a></li> 
         <li><a href="https://www.burgerking.co.za/rewards/offers" class="nav-link px-2">Coupons</a></li> 
         <li><a href="https://www.burgerking.co.za/nutrition-explorer" class="nav-link px-2">Nutrition</a></li> 
@@ -56,24 +28,18 @@
 
       <!-- Sign Up Button -->
       <div class="col-md-3 text-end"> 
-        <button type="button" class="btn btn-outline-primary me-2">Sign Up</button> 
+        <button type="button" class="btn sign-btn">Sign Up</button> 
       </div> 
     </header> 
   </div>
 
   <!-- Sign Up Section -->
   <section class="signup-section">
-
-    <!-- Background Video -->
     <video autoplay muted loop playsinline class="bg-video">
       <source src="videos/Whopper Whopper Extended.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-
-    <!-- Dark Overlay -->
     <div class="overlay"></div>
-
-    <!-- Form -->
     <div class="form-container">
       <div class="tabs">
         <button class="tab active">Sign Up</button>
@@ -107,7 +73,7 @@
     <div class="container my-5">
       <div class="row p-4 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-6 p-3">
-          <h1 class="display-4 fw-bold text-dark">
+          <h1 class="display-4 fw-bold text-dark" id="text-dark">
             BK® Flame-grilled perfection!
           </h1>
           <p class="lead">
@@ -133,7 +99,7 @@
                class="img-fluid rounded-3 shadow-sm">
         </div>
         <div class="col-lg-6 p-3">
-          <h1 class="display-4 fw-bold text-dark">
+          <h1 class="display-4 fw-bold text-dark" id="text-dark">
             Who says little appetites can't rule the world?
           </h1>
           <p class="lead">
@@ -149,7 +115,7 @@
     <div class="container my-5">
       <div class="row p-4 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-6 p-3">
-          <h1 class="display-4 fw-bold text-dark">
+          <h1 class="display-4 fw-bold text-dark" id="text-dark">
             King Value Meals for everyone
           </h1>
           <p class="lead">
@@ -178,7 +144,7 @@
                class="img-fluid rounded-3 shadow-sm">
         </div>
         <div class="col-lg-6 p-3">
-          <h1 class="display-4 fw-bold text-dark">
+          <h1 class="display-4 fw-bold text-dark" id="text-dark">
             INSTANT SAVINGS ALERT!
           </h1>
           <p class="lead">
@@ -196,7 +162,7 @@
     <div class="container my-5">
       <div class="row p-4 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-6 p-3">
-          <h1 class="display-4 fw-bold text-dark">
+          <h1 class="display-4 fw-bold text-dark" id="text-dark">
             Order in with the King
           </h1>
           <p class="lead">
@@ -225,7 +191,7 @@
         </div>
 
     <div class="col-lg-6 p-3">
-          <h1 class="display-4 fw-bold text-dark">
+          <h1 class="display-4 fw-bold text-dark" id="text-dark">
             Your Career, Your Way
           </h1>
           <p class="lead">
@@ -240,13 +206,13 @@
       </div>
     </div>
 
-    <!--App Donload Section-->
+    <!--App Download Section-->
     <section class="app-download-section">
   <div class="container">
     <div class="row align-items-center">
  
       <div class="col-md-6 text-center">
-        <img src="images/Download App.avif" alt="BK App Phones" class="img-fluid">
+        <img src="images/Download App.avif" alt="BK App Phones" class="img-fluid" id="app-download">
       </div>
       <div class="col-md-6">
         <h2>
@@ -256,11 +222,11 @@
         </h2>
         
         <div class="app-buttons my-4">
-          <a href="#" class="me-2">
-            <img src="images/appstore.png" alt="Download on the App Store">
+          <a href="https://apps.apple.com/us/app/burger-king-sa/id1407663966" class="me-2">
+            <img src="images/App Store.jpeg" alt="Download on the App Store" class="app">
           </a>
-          <a href="#">
-            <img src="images/googleplay.png" alt="Get it on Google Play">
+          <a href="https://play.google.com/store/apps/details?id=za.co.wigroup.burgerking">
+            <img src="images/google play.png" alt="Get it on Google Play" class="app">
           </a>
         </div>
 
@@ -273,5 +239,44 @@
     </div>
   </div>
 </section>
+
+<!--Footer Section-->
+<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" id="footer">
+  <div class="col mb-3"></div>
+  <div class="col mb-3">
+    <h5 class="footer-title">BK ® INFO</h5>
+    <ul class="nav flex-column" id="footer-links">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About BK®</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Frequently Asked Questions</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Food Quality</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Halaal Certification</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Lit Grills</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">BK®Digital Gift Cards</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Guest Trac</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">International</a></li>
+    </ul>
+  </div>
+
+  <div class="col mb-3">
+    <h5 class="footer-title">BK ® CARES</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Responsibility</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms & Conditions</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">B-BBEE Certificate 2021 - 2022</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Section 51 PAIA & POPI Manual</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Whistle Blowing Hotline Provider</a></li>
+    </ul>
+  </div>
+
+  <!-- Section 3 -->
+  <div class="col mb-3">
+    <h5 class="footer-title">BK® & YOU</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Legal and Privacy Policy</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Get in Touch</a></li>
+    </ul>
+  </div>
+</footer>
 </body>
 </html>
