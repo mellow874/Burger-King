@@ -1,13 +1,11 @@
 :root {
   --primary-color: #d62300;      /* Burger King red */
   --primary-hover: #a91b00;      /* Darker red */
-  --text-color: #502314;         /* Brown text */
+  --text-color: #2f0e03;         /* Brown text */
   --bg-color: #fff5e1;           /* Light beige background */
   --font: 'Flame', Arial, sans-serif;
 }
 
-
-/* General Styles */
 body {
   font-family: var(--font);
   color: var(--text-color);
@@ -16,29 +14,36 @@ body {
   background-color: var(--bg-color);
 }
 
-.logo-svg {
-  width: 70px;
+.logo-img {
+  max-width: 60px;   
   height: auto;
+  display: block;
 }
 
 .nav-link {
   font-weight: bold;
   color: var(--text-color);
   transition: color 0.3s;
+  font-family: Flame !important;
+  font-size: 18px;
 }
 
 .nav-link:hover {
   color: var(--primary-color);
 }
 
-.btn-outline-primary {
-  color: var(--primary-color);
+.sign-btn {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  border-radius: 35px;;
   border: 2px solid var(--primary-color);
+  font-size: 14px;
   font-weight: bold;
+  font-family: Flame !important;
 }
 
-.btn-outline-primary:hover {
-  background: var(--primary-color);
+.sign-btn:hover {
+  background: var(--primary-hover);
   color: #fff;
 }
 
@@ -120,8 +125,7 @@ body {
 }
 
 /* Form Fields */
-form input[type="text"],
-form input[type="email"] {
+form input {
   width: 100%;
   padding: 0.75rem;
   margin-bottom: 1rem;
@@ -150,4 +154,59 @@ form button[type="submit"] {
 
 form button[type="submit"]:hover {
   background: var(--primary-hover);
+}
+
+#text-dark {
+  color: var(--text-color) !important;  
+  font-size: 2.2rem;          
+  font-weight: 700;      
+  line-height: 1.2;
+  font-family: Flame !important;
+}
+
+.btn-primary {
+  border-radius: 25px;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  background-color: var(--bg-color);
+  font-family: Flame !important;
+}
+
+.btn-primary:hover {
+  background-color: rgba(247, 215, 215, 0.903);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-hover);
+}
+
+#app-download {
+  max-width: 500px;
+  height: auto;
+}
+
+.app-buttons {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 8px; 
+  
+}
+
+.app-buttons img.app {
+  height: 50px;   
+  width: auto;    
+  cursor: pointer;
+}
+
+#footer {
+  background-color: rgb(54, 8, 8);
+  padding: 2rem 1rem;
+  font-family: Flame !important;
+}
+
+.footer-title {
+  color: var(--bg-color);
+}
+
+#footer-links {
+  color: rgb(249, 245, 245) !important;
 }
